@@ -1,4 +1,4 @@
-# secure-pickle
+# securepickle
 <pre>
  You gotta keep 'em separated!
  
@@ -31,9 +31,9 @@ pip install secure-pickle
 
 Optional dependencies:
 ```bash
-pip install secure-pickle[fast]      # xxhash for 5x faster mode
-pip install secure-pickle[encrypt]   # cryptography for AES-256-GCM
-pip install secure-pickle[all]       # both
+pip install securepickle[fast]      # xxhash for 5x faster mode
+pip install securepickle[encrypt]   # cryptography for AES-256-GCM
+pip install securepickle[all]       # both
 ```
 
 ## Why?
@@ -126,13 +126,13 @@ export SECURE_PICKLE_KEY_DIR=/custom/path
 
 ```bash
 # Check if file is secure
-secure-pickle check data.pkl
+securepickle check data.pkl
 
 # Migrate unsigned pickle
-secure-pickle migrate old.pkl --output new.pkl
+securepickle migrate old.pkl --output new.pkl
 
 # Verify signature
-secure-pickle verify data.pkl
+securepickle verify data.pkl
 ```
 
 ## Security Notes
