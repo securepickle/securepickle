@@ -1,7 +1,7 @@
 """
 secure-pickle: HMAC-verified pickle serialization with optional encryption
 
-Copyright 2025 ECT Framework Contributors
+Copyright 2025 Michael Almeida, 1001224879 Ontario Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

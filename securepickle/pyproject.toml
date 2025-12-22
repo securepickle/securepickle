@@ -10,7 +10,7 @@ readme = "README.md"
 license = "Apache-2.0"
 requires-python = ">=3.8"
 authors = [
-    { name = "ECT Framework Contributors" }
+    { name = "Michael Almeida, 1001224879 Ontario Inc." }
 ]
 keywords = [
     "pickle",

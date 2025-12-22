@@ -1,4 +1,22 @@
 # secure-pickle
+<pre>
+ You gotta keep 'em separated!
+ 
+     _____ ______ _____ _    _ _____  ______   _____ _____ _____ _  ___      _______ 
+    / ____|  ____/ ____| |  | |  __ \|  ____| |  __ \_   _/ ____| |/ / |    |  ____|
+   | (___ | |__ | |    | |  | | |__) | |__    | |__) || || |    | ' /| |    | |__   
+    \___ \|  __|| |    | |  | |  _  /|  __|   |  ___/ | || |    |  < | |    |  __|  
+    ____) | |___| |____| |__| | | \ \| |____  | |    _| || |____| . \| |____| |____ 
+   |_____/|______\_____|\____/|_|  \_\______| |_|   |_____\_____|_|\_\______|______|
+  
+                           v1.2.0 - NOW SHIPPING
+                           
+              "A jar of pickles comes tamper-proof.
+                      So should your code."
+                      
+                      Pop. Verify. Trust.
+
+ </pre>
 
 **A jar of pickles comes tamper-proof. So should your code.**
 
@@ -130,4 +148,4 @@ secure-pickle verify data.pkl
 
 ---
 
-Apache 2.0 License | Copyright 2025 ECT Framework Contributors
+Apache 2.0 License | Copyright 2025 Michael Almeida, 1001224879 Ontario Inc.
