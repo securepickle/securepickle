@@ -23,7 +23,14 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8+-green.svg)](https://python.org)
 
+
 ## Installation
+
+PyPI publication pending. For now, install directly from GitHub:
+
+pip install git+https://github.com/securepickle/securepickle.git
+
+
 
 ```bash
 pip install securepickle
