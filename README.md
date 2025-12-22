@@ -155,9 +155,9 @@ securepickle verify data.pkl
 
 ## Development Notes
 
-Writing the code: 10 minutes. Setting up GitHub and PyPI: 1 hour.
+Writing the code: 10 minutes. Setting up GitHub and PyPI: 2 hours if you get a name conflict but the name is still available for whatever reason.
 
-Open source infrastructure is broken, WTF!!! IDEAS DIE HERE.
+Open source infrastructure is broken, WTF!!! IDEAS DIE HERE. what did i verify by seeing if securepickle is available but i can't use it? 
 
 
 ---
