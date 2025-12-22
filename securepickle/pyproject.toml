@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "secure-pickle"
+name = "securepickle"
 version = "1.2.0"
 description = "HMAC-verified pickle serialization - because a jar of pickles comes tamper-proof"
 readme = "README.md"
@@ -41,13 +41,13 @@ encrypt = ["cryptography>=3.0.0"]
 all = ["xxhash>=3.0.0", "cryptography>=3.0.0"]
 
 [project.scripts]
-secure-pickle = "secure_pickle:main"
+securepickle = "secure_pickle:main"
 
 [project.urls]
-Homepage = "https://github.com/ect-framework/secure-pickle"
-Documentation = "https://github.com/ect-framework/secure-pickle#readme"
-Repository = "https://github.com/ect-framework/secure-pickle"
-Issues = "https://github.com/ect-framework/secure-pickle/issues"
+Homepage = "https://github.com/securepickle/securepickle"
+Documentation = "https://github.com/securepickle/securepickle#readme"
+Repository = "https://github.com/securepickle/securepickle"
+Issues = "https://github.com/securepickle/securepickle/issues"
 
 [tool.hatch.build.targets.sdist]
 include = [
