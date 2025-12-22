@@ -1,16 +1,18 @@
 ## Hi there 👋
 
 <!--
-**securepickle/securepickle** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ You gotta keep 'em separated!
 
-Here are some ideas to get you started:
+     _____ ______ _____ _    _ _____  ______   _____ _____ _____ _  ___      _______ 
+    / ____|  ____/ ____| |  | |  __ \|  ____| |  __ \_   _/ ____| |/ / |    |  ____|
+   | (___ | |__ | |    | |  | | |__) | |__    | |__) || || |    | ' /| |    | |__   
+    \___ \|  __|| |    | |  | |  _  /|  __|   |  ___/ | || |    |  < | |    |  __|  
+    ____) | |___| |____| |__| | | \ \| |____  | |    _| || |____| . \| |____| |____ 
+   |_____/|______\_____|\____/|_|  \_\______| |_|   |_____\_____|_|\_\______|______|
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+                           v1.2.0 - NOW SHIPPING
+                           
+              "A jar of pickles comes tamper-proof.
+                      So should your code."
+                      
+                      Pop. Verify. Trust.
