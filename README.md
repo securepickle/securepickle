@@ -26,7 +26,7 @@
 ## Installation
 
 ```bash
-pip install secure-pickle
+pip install securepickle
 ```
 
 Optional dependencies:
