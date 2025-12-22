@@ -146,6 +146,13 @@ securepickle verify data.pkl
 
 ## Pop. Verify. Trust.
 
+## Development Notes
+
+Writing the code: 10 minutes. Setting up GitHub and PyPI: 1 hour.
+
+Open source infrastructure is broken, WTF!!! IDEAS DIE HERE.
+
+
 ---
 
 Apache 2.0 License | Copyright 2025 Michael Almeida, 1001224879 Ontario Inc.
