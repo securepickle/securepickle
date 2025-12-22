@@ -52,7 +52,7 @@ This is real. `__reduce__` tells pickle how to reconstruct an object - and attac
 
 ## Solution
 
-`secure-pickle` checks the seal BEFORE opening the jar:
+`securepickle` checks the seal BEFORE opening the jar:
 
 1. **Signs** every pickle with HMAC-SHA256
 2. **Verifies** the signature before loading
