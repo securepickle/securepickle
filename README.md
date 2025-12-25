@@ -2,9 +2,53 @@
 
 ```markdown
 # securepickle
+# If you're reading this, yes, pickle is still dangerous in 2025.
 
 Secure pickle is the customs check for Python serialization: the package arrives at the border, we inspect it before we let it in. Common sense. That is all we do. No fancy tricks.
 
+Description
+–––––––––––
+Securepickle is a defensive wrapper around Python’s pickle module that prevents
+arbitrary code execution from tampered or malicious pickle data.
+
+Securepickle is for systems that already rely on pickle and need a practical safety layer.
+It is not an argument that pickle is ideal. It is mitigation for reality. We know pickle is out there, unsecured, rotting away in leaky jars. 
+
+securepickle is for Python systems (including LLM pipelines) that already use pickle for performance and convenience, but need a guardrail when artifacts persist, move, or get reused.
+
+LLMs don’t make pickle safer.
+They make it easier to accidentally trust serialized code you didn’t write.
+
+securepickle adds a cryptographic “did this come from us?” check before any code is executed.
+
+💀 Executed.
+Cause of death: unverified pickle.
+Time of death: pickle.load()
+Next of kin notified: HMAC-SHA256
+
+Pop. Verify. Trust.
+
+It enforces cryptographic integrity checks before unpickling and optionally
+supports authenticated encryption. If verification fails, the data is never
+deserialized.
+
+This library is intended for environments where pickle compatibility is required
+but untrusted or externally stored data is involved.
+
+Why this exists
+–––––––––––––––
+pickle is not safe for untrusted input. Loading a malicious pickle can execute
+arbitrary code.
+
+securepickle mitigates this risk by requiring signed (and optionally encrypted)
+payloads before deserialization.
+
+What it does / does not do
+––––––––––––––––––––––––––
+✔ Prevents tampering and malicious payload execution
+✔ Maintains pickle compatibility
+✖ Does not sandbox Python objects
+✖ Does not make pickle “safe” without a shared secret
 
  You gotta keep 'em separated!
  
@@ -172,6 +216,22 @@ Writing the code: 10 minutes. Getting it on GitHub and PyPI: 3+ hours.
 Name was "available" but somehow later its not really because too similar to a - version. Verify Better.  The open source infrastructure is held together with duct tape and gatekeeping. If you've ever tried to publish a package, you know.
 
 But it shipped. Pop. Verify. Trust.
+
+
+## FAQ
+
+**Q: Why not just use protobuf / JSON / msgpack?**  
+A: If you can, you should. This is for when you can’t.
+
+
+### Note on LLM pipelines
+
+pickle is commonly used in LLM workflows for caching embeddings, model artifacts,
+agent state, and intermediate results. These artifacts are often reused across
+runs or shared between systems.
+
+securepickle adds an integrity check to ensure those artifacts are verified before
+being deserialized.
 
 
 ```
